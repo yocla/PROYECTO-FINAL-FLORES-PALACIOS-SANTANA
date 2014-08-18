@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	padding:0px;
+	margin:0px;
+}
+body{
+	background-color: #FFF;
+}
+.principal{
+	width:960px;
+	overflow:hidden;
+	margin:40px auto auto auto;
+	box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.5);
+	background-color:#FFF;
+	
+}
+.cabecera{
+	width:960px;
+	background-color: #FFF;
+}
+.logotipo{
+	width:960px;
+	height:235px;
+	margin: auto auto 20px auto;
+}
+
+.panel{
+	width:960px;
+	height:40px;
+	background-image:url(imagenes/proyecto_web_11.jpg);
+	background-repeat:repeat-x;
+	box-shadow:0px 0px 5px 0px rgba(0,0,0,0.5);
+	margin:auto auto 10px auto;	
+	}	
+.botones li{
+	
+	width:240px;
+	height:40px;
+	float:left;
+	text-align:center ;
+	line-height:38px;
+	list-style:none;
+	display:block;
+}
+.botones li a{
+	display:block;
+	color: #cc66cc;
+	text-transform:uppercase;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:bold; 
+	text-decoration:none;
+}
+.botones li a:hover{
+	text-decoration:underline;
+	color:#066;
+}
+.botones li a:active{
+	text-decoration:underline;
+	color:#0FC;
+}
+.renglon{
+	width:960px;
+	height:8px;
+	background-image:url(imagenes/proyecto_web_14.jpg);
+	background-repeat:repeat-x;
+	box-shadow:0px 0px 5px 0px rgba(0,0,0,0.5);		
+}
+/*contenido*/
+.contenido{
+	width:900px;
+	margin: 20px auto auto auto;
+}
+.imagen1{
+	float:left;
+	width:253px;
+	height:254px;
+}
+.info{
+	float:right;
+	width:620px;
+	height:154px;
+	text-align:justify ;
+	
+}
+.imagen2{
+	text-align:center;
+	width:620px;
+	margin:25px auto 25px auto;
+	float:right;	
+}
+.banner{
+	width:900px;
+	height:50px;
+	float:right;
+	margin:10px auto 10px auto;
+}
+
+.iconos li{
+	
+	width:300px;
+	height:50px;
+	float:left;
+	text-align:center ;
+	line-height:38px;
+	list-style:none;
+	display:block;
+
+}
+.iconos li a{
+	display:block;
+	color: #cc66cc;
+	text-transform:uppercase;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:bold; 
+	text-decoration:none;
+	background-repeat:no-repeat;
+	background-image:url(imagenes/proyecto_web_29.jpg);
+	background-position:center;
+	
+}
+.iconos li a:hover{
+	text-decoration:underline;
+	color:#066;
+}
+.iconos li a:active{
+	text-decoration:underline;
+	color:#0FC;
+}
+.imagen3{
+	width:300px;
+	height:250px;
+	float:left;
+	text-align:center ;
+	margin:auto 5px auto auto;
+}
+.imagen4{
+	width:290px;
+	height:250px;
+	text-align:center ;
+	float:left;
+
+}
+.imagen5{
+	width:300px;
+	height:250px;
+	float:left;
+	text-align:center ;
+	margin:auto auto auto 5px;
+}
+p{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:15px;	
+	
+}
+.imagen6{
+	width:599px;
+	height:120px;
+	margin:10px auto 10px auto;
+	float:left;
+
+}
+.imagen7{
+	width:281px;
+	height:120px;
+	margin:5px 10px 5px 10px;
+	float:right;
+}
+.piedepagina{
+	width:960px;
+	height:70px;
+		background-image:url(imagenes/proyecto_web_51.jpg);
+		background-attachment:fixed;
+		background-repeat:no-repeat;
+
+}
+
+</style>
